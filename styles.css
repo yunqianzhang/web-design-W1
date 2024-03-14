@@ -1,3 +1,4 @@
+
 .Page-navigation{
 display: flex;
 padding: 3%;
@@ -6,3 +7,39 @@ background-color:#524439;
 color: antiquewhite;
 font-weight: 700;
 }
+
+
+.pharagraph-right{
+margin: 50px;
+display: flex;
+justify-content: space-between;
+}
+
+.left-pic{
+    display: flex;
+}
+
+.right-pharagraph{
+   margin: 50px;
+   h2{
+    color: #005B49;
+   }  
+}
+
+.pharagraph-left{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color:#524439;
+color: antiquewhite;
+}
+
+.right-pic{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 70px;
+}
+
+.left-pharagraph{
+    margin-left: 100px;
+ }
