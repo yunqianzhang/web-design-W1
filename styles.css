@@ -1,0 +1,8 @@
+.Page-navigation{
+display: flex;
+padding: 3%;
+justify-content: space-around;
+background-color:#524439;
+color: antiquewhite;
+font-weight: 700;
+}
