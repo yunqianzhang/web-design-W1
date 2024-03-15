@@ -8,7 +8,7 @@ color: antiquewhite;
 font-weight: 700;
 }
 
-
+/*left pic right text*/
 .pharagraph-right{
 margin: 50px;
 display: flex;
@@ -26,6 +26,7 @@ justify-content: space-between;
    }  
 }
 
+/*left text right text*/
 .pharagraph-left{
     display: flex;
     flex-direction: row-reverse;
@@ -41,5 +42,23 @@ color: antiquewhite;
 }
 
 .left-pharagraph{
-    margin-left: 100px;
+    margin-left: 90px;
+    h2{
+    color: #FFEACD;
+    }  
+ }
+
+ /*footer contact*/
+ .horizontal-bar{
+    padding: 5px;
+    background-color: #B39D62;
+ }
+
+ .allfooter{
+    display: flex;margin: 30px;
+ }
+
+ .footer2{
+   margin-left: 60px;
+
  }
