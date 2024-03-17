@@ -1,3 +1,4 @@
+
 .Page-navigation {
     color: antiquewhite;
     display: flex;
@@ -7,8 +8,8 @@
     font-weight: 700;
 }
 .Page-navigation a {
-    color: inherit; /* 使用父元素的颜色 */
-    text-decoration: none; /* 去除下划线 */
+    color: inherit; 
+    text-decoration: none; 
 }
 
 /*left pic right text*/
@@ -67,5 +68,20 @@
 
 .footer2 {
     margin-left: 60px;
+
+}
+
+.adopt-page-pharagraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    margin: 200px;
+  
+}
+
+.adopt-page-pharagraph h2{
+  margin-top: 100px;
 
 }
