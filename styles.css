@@ -6,6 +6,7 @@
     justify-content: space-around;
     background-color: #524439;
     font-weight: 700;
+    font-size: 20px;
 }
 .Page-navigation a {
     color: inherit; 
@@ -57,14 +58,24 @@
 /*footer contact*/
 .horizontal-bar {
     padding: 5px;
+    padding-left: 70px;
     background-color: #B39D62;
 }
 
-.allfooter {
+.whitefooter {
     display: flex;
     margin: 30px;
     margin-left: 90px;
 }
+
+.blackfooter {
+    display: flex;
+    padding: 50px;
+    padding-left: 100px;
+    background: #524439;
+    color: antiquewhite;
+}
+
 
 .footer2 {
     margin-left: 60px;
@@ -77,11 +88,14 @@
     justify-content: center;
     align-items: center;
     text-align: center; 
-    margin: 200px;
+    margin: 250px;
+    
   
 }
 
 .adopt-page-pharagraph h2{
   margin-top: 100px;
+  color: #4B8077;
+  text-decoration: underline;
 
 }
