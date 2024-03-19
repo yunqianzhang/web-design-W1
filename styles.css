@@ -1,3 +1,9 @@
+
+.tabby{
+    background-color: #524439;
+    padding: 20px;
+    color: #ede6db;
+}
 .Page-navigation {
     color: antiquewhite;
     display: flex;
@@ -19,7 +25,7 @@
     display: flex;
     justify-content: center;
     padding: 50px;
-   color: #ede6db;
+    color: #ede6db;
 }
 
 /*footer contact*/
@@ -170,19 +176,49 @@
     display: flex;
     flex-direction: column;
     padding: 50px;
-    h2{
+
+    h2 {
         color: #a18c51;
     }
 }
 
-.events img{
+.events img {
     width: 400px;
     height: auto;
 }
+
 /*////////////////////////////////////////////////*/
 
 /*volunteering*/
-.volunteer1{
- 
+.volunteer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background: #ede6db;
+}
+
+.roles {
+    display: flex;
+    justify-content: space-around;
+    color: #4B8077;
 
 }
+
+.volunteer-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+ 
+    h3 {
+        color: #4B8077;
+    }
+}
+
+
